@@ -1,0 +1,5 @@
+train: PCBData/dataset/PCBData/images/train
+val: PCBData/dataset/PCBData/images/val
+
+nc: 7
+names: ['short', 'missing_hole', 'mouse_bite', 'spur', 'spurious_copper', 'open_circuit', 'corrosion']
