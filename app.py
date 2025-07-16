@@ -7,7 +7,7 @@ import sys
 # Clone YOLOv5 repo (assumes 'yolov5' folder already exists in repo)
 sys.path.append('./yolov5')
 from models.common import DetectMultiBackend
-from utils.general import (non_max_suppression, scale_coords)
+from utils.general import non_max_suppression
 from utils.datasets import LoadImages
 from utils.torch_utils import select_device
 import numpy as np
