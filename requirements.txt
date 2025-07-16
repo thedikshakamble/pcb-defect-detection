@@ -4,3 +4,4 @@ torchvision==0.17.0+cpu
 opencv-python==4.8.0.76
 numpy==1.24.3
 Pillow==9.5.0
+seaborn==0.13.2
