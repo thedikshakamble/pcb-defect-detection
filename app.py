@@ -12,7 +12,7 @@ sys.path.append('./yolov5')
 
 # ✅ Import from YOLOv5
 from models.common import DetectMultiBackend
-from utils.general import non_max_suppression, scale_coords
+from utils.general import non_max_suppression
 from utils.torch_utils import select_device
 
 # ✅ Load model
